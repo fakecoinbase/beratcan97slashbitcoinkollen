@@ -1,0 +1,2 @@
+# bitcoinkollen.se
+bitcoinkollen.se
