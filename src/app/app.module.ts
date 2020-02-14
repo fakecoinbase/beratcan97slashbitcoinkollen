@@ -8,6 +8,8 @@ import { StartComponent } from './components/start/start.component';
 import { NavbarComponent } from './components/viewComponentParts/navbar/navbar.component';
 import { FooterComponent } from './components/viewComponentParts/footer/footer.component';
 
+import { HttpClientModule } from '@angular/common/http'; 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,8 @@ import { FooterComponent } from './components/viewComponentParts/footer/footer.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
