@@ -5,8 +5,6 @@ import { AppComponent } from './app.component';
 import { BtcComponent } from './components/coinOverview/btc/btc.component';
 import { AppRoutingModule } from './app-routing.module';
 import { StartComponent } from './components/start/start.component';
-import { NavbarComponent } from './components/viewComponentParts/navbar/navbar.component';
-import { FooterComponent } from './components/viewComponentParts/footer/footer.component';
 
 import { HttpClientModule } from '@angular/common/http'; 
 
@@ -15,8 +13,6 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     BtcComponent,
     StartComponent,
-    NavbarComponent,
-    FooterComponent
   ],
   imports: [
     BrowserModule,
