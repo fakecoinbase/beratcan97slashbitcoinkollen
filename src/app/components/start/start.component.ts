@@ -14,6 +14,10 @@ export class StartComponent implements OnInit {
 
   ngOnInit() {
     this.getDATA();
+
+    setInterval(() => {
+      this.getDATA();
+    }, 10000)
   }
 
   getDATA(): void {
