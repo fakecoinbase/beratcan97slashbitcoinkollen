@@ -3,7 +3,7 @@
   <div class='d-flex flex-column align-items-center justify-content-center'>
     <h4 class='text-white'>
       {{btcPrice}} $ (
-      <span *ngIf="btcPriceInSek; else loadingSpinner">{{btcPriceInSek}} SEK</span>
+      <span *ngIf="btcPriceInSek; else loadingSpinner">{{btcPriceInSek | number}} SEK</span>
       )</h4>
     <p class="font-weight-lighter">Priset uppdateras varje 10 sek</p>
   </div>
