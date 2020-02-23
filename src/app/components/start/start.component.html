@@ -1,11 +1,11 @@
-<div class='vh-100 bg-primary d-flex align-items-center justify-content-center flex-row'>
+<div class='vh-100 d-flex align-items-center justify-content-center flex-row'>
   <img class='rotate' width="100px" height="100px" alt="Bitcoin logo" src="https://bitcoin.org/img/icons/opengraph.png?1581019563">
   <div class='d-flex flex-column align-items-center justify-content-center'>
     <h4 class='text-white'>
       {{btcPrice}} $ (
       <span *ngIf="btcPriceInSek; else loadingSpinner">{{btcPriceInSek | number}} SEK</span>
       )</h4>
-    <p class="font-weight-lighter">Priset uppdateras var 10:e sekund</p>
+    <p class="font-weight-lighter text-white">Priset uppdateras var 10:e sekund</p>
   </div>
 </div>
 
@@ -16,3 +16,6 @@
 </ng-template>
 
 <script id="_waunfd">var _wau = _wau || []; _wau.push(["dynamic", "ens6il9n4p", "nfd", "c4302bffffff", "small"]);</script><script async src="//waust.at/d.js"></script>
+
+<app-particles></app-particles>
+
